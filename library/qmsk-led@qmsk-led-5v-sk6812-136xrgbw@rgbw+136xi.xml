@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
+	<Info datetime="2023-11-08T03:06:45" showfile="qmsk-led-test" />
+	<FixtureType index="6" name="QMSK-LED-5V-SK6812-136xRGBW" mode="RGBW+136xI">
+		<short_name>SK6812</short_name>
+		<manufacturer>QMSK-LED</manufacturer>
+		<short_manufacturer>QMSK</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Pixel" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="DIM" feature="DIMMER" preset="DIMMER" coarse="1" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+			<Module index="1" name="Head" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="COLORRGB5" feature="COLORRGB" preset="COLOR" coarse="4" highlight_value="100" color="ffffff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB5" subattribute_user_name="White" attribute="COLORRGB5" attribute_user_name="White" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="1" />
+			<Instance index="1" module_index="0" patch="5" X="-1" />
+			<Instance index="2" module_index="0" patch="6" X="-0.99" />
+			<Instance index="3" module_index="0" patch="7" X="-0.97" />
+			<Instance index="4" module_index="0" patch="8" X="-0.96" />
+			<Instance index="5" module_index="0" patch="9" X="-0.94" />
+			<Instance index="6" module_index="0" patch="10" X="-0.93" />
+			<Instance index="7" module_index="0" patch="11" X="-0.91" />
+			<Instance index="8" module_index="0" patch="12" X="-0.9" />
+			<Instance index="9" module_index="0" patch="13" X="-0.88" />
+			<Instance index="10" module_index="0" patch="14" X="-0.87" />
+			<Instance index="11" module_index="0" patch="15" X="-0.85" />
+			<Instance index="12" module_index="0" patch="16" X="-0.84" />
+			<Instance index="13" module_index="0" patch="17" X="-0.82" />
+			<Instance index="14" module_index="0" patch="18" X="-0.81" />
+			<Instance index="15" module_index="0" patch="19" X="-0.79" />
+			<Instance index="16" module_index="0" patch="20" X="-0.78" />
+			<Instance index="17" module_index="0" patch="21" X="-0.76" />
+			<Instance index="18" module_index="0" patch="22" X="-0.75" />
+			<Instance index="19" module_index="0" patch="23" X="-0.73" />
+			<Instance index="20" module_index="0" patch="24" X="-0.72" />
+			<Instance index="21" module_index="0" patch="25" X="-0.7" />
+			<Instance index="22" module_index="0" patch="26" X="-0.69" />
+			<Instance index="23" module_index="0" patch="27" X="-0.67" />
+			<Instance index="24" module_index="0" patch="28" X="-0.66" />
+			<Instance index="25" module_index="0" patch="29" X="-0.64" />
+			<Instance index="26" module_index="0" patch="30" X="-0.63" />
+			<Instance index="27" module_index="0" patch="31" X="-0.61" />
+			<Instance index="28" module_index="0" patch="32" X="-0.6" />
+			<Instance index="29" module_index="0" patch="33" X="-0.59" />
+			<Instance index="30" module_index="0" patch="34" X="-0.57" />
+			<Instance index="31" module_index="0" patch="35" X="-0.56" />
+			<Instance index="32" module_index="0" patch="36" X="-0.54" />
+			<Instance index="33" module_index="0" patch="37" X="-0.53" />
+			<Instance index="34" module_index="0" patch="38" X="-0.51" />
+			<Instance index="35" module_index="0" patch="39" X="-0.5" />
+			<Instance index="36" module_index="0" patch="40" X="-0.48" />
+			<Instance index="37" module_index="0" patch="41" X="-0.47" />
+			<Instance index="38" module_index="0" patch="42" X="-0.45" />
+			<Instance index="39" module_index="0" patch="43" X="-0.44" />
+			<Instance index="40" module_index="0" patch="44" X="-0.42" />
+			<Instance index="41" module_index="0" patch="45" X="-0.41" />
+			<Instance index="42" module_index="0" patch="46" X="-0.39" />
+			<Instance index="43" module_index="0" patch="47" X="-0.38" />
+			<Instance index="44" module_index="0" patch="48" X="-0.36" />
+			<Instance index="45" module_index="0" patch="49" X="-0.35" />
+			<Instance index="46" module_index="0" patch="50" X="-0.33" />
+			<Instance index="47" module_index="0" patch="51" X="-0.32" />
+			<Instance index="48" module_index="0" patch="52" X="-0.3" />
+			<Instance index="49" module_index="0" patch="53" X="-0.29" />
+			<Instance index="50" module_index="0" patch="54" X="-0.27" />
+			<Instance index="51" module_index="0" patch="55" X="-0.26" />
+			<Instance index="52" module_index="0" patch="56" X="-0.24" />
+			<Instance index="53" module_index="0" patch="57" X="-0.23" />
+			<Instance index="54" module_index="0" patch="58" X="-0.21" />
+			<Instance index="55" module_index="0" patch="59" X="-0.2" />
+			<Instance index="56" module_index="0" patch="60" X="-0.19" />
+			<Instance index="57" module_index="0" patch="61" X="-0.17" />
+			<Instance index="58" module_index="0" patch="62" X="-0.16" />
+			<Instance index="59" module_index="0" patch="63" X="-0.14" />
+			<Instance index="60" module_index="0" patch="64" X="-0.13" />
+			<Instance index="61" module_index="0" patch="65" X="-0.11" />
+			<Instance index="62" module_index="0" patch="66" X="-0.096" />
+			<Instance index="63" module_index="0" patch="67" X="-0.081" />
+			<Instance index="64" module_index="0" patch="68" X="-0.067" />
+			<Instance index="65" module_index="0" patch="69" X="-0.052" />
+			<Instance index="66" module_index="0" patch="70" X="-0.037" />
+			<Instance index="67" module_index="0" patch="71" X="-0.022" />
+			<Instance index="68" module_index="0" patch="72" X="-0.007" />
+			<Instance index="69" module_index="0" patch="73" X="0.007" />
+			<Instance index="70" module_index="0" patch="74" X="0.022" />
+			<Instance index="71" module_index="0" patch="75" X="0.037" />
+			<Instance index="72" module_index="0" patch="76" X="0.052" />
+			<Instance index="73" module_index="0" patch="77" X="0.067" />
+			<Instance index="74" module_index="0" patch="78" X="0.081" />
+			<Instance index="75" module_index="0" patch="79" X="0.096" />
+			<Instance index="76" module_index="0" patch="80" X="0.11" />
+			<Instance index="77" module_index="0" patch="81" X="0.13" />
+			<Instance index="78" module_index="0" patch="82" X="0.14" />
+			<Instance index="79" module_index="0" patch="83" X="0.16" />
+			<Instance index="80" module_index="0" patch="84" X="0.17" />
+			<Instance index="81" module_index="0" patch="85" X="0.19" />
+			<Instance index="82" module_index="0" patch="86" X="0.2" />
+			<Instance index="83" module_index="0" patch="87" X="0.21" />
+			<Instance index="84" module_index="0" patch="88" X="0.23" />
+			<Instance index="85" module_index="0" patch="89" X="0.24" />
+			<Instance index="86" module_index="0" patch="90" X="0.26" />
+			<Instance index="87" module_index="0" patch="91" X="0.27" />
+			<Instance index="88" module_index="0" patch="92" X="0.29" />
+			<Instance index="89" module_index="0" patch="93" X="0.3" />
+			<Instance index="90" module_index="0" patch="94" X="0.32" />
+			<Instance index="91" module_index="0" patch="95" X="0.33" />
+			<Instance index="92" module_index="0" patch="96" X="0.35" />
+			<Instance index="93" module_index="0" patch="97" X="0.36" />
+			<Instance index="94" module_index="0" patch="98" X="0.38" />
+			<Instance index="95" module_index="0" patch="99" X="0.39" />
+			<Instance index="96" module_index="0" patch="100" X="0.41" />
+			<Instance index="97" module_index="0" patch="101" X="0.42" />
+			<Instance index="98" module_index="0" patch="102" X="0.44" />
+			<Instance index="99" module_index="0" patch="103" X="0.45" />
+			<Instance index="100" module_index="0" patch="104" X="0.47" />
+			<Instance index="101" module_index="0" patch="105" X="0.48" />
+			<Instance index="102" module_index="0" patch="106" X="0.5" />
+			<Instance index="103" module_index="0" patch="107" X="0.51" />
+			<Instance index="104" module_index="0" patch="108" X="0.53" />
+			<Instance index="105" module_index="0" patch="109" X="0.54" />
+			<Instance index="106" module_index="0" patch="110" X="0.56" />
+			<Instance index="107" module_index="0" patch="111" X="0.57" />
+			<Instance index="108" module_index="0" patch="112" X="0.59" />
+			<Instance index="109" module_index="0" patch="113" X="0.6" />
+			<Instance index="110" module_index="0" patch="114" X="0.61" />
+			<Instance index="111" module_index="0" patch="115" X="0.63" />
+			<Instance index="112" module_index="0" patch="116" X="0.64" />
+			<Instance index="113" module_index="0" patch="117" X="0.66" />
+			<Instance index="114" module_index="0" patch="118" X="0.67" />
+			<Instance index="115" module_index="0" patch="119" X="0.69" />
+			<Instance index="116" module_index="0" patch="120" X="0.7" />
+			<Instance index="117" module_index="0" patch="121" X="0.72" />
+			<Instance index="118" module_index="0" patch="122" X="0.73" />
+			<Instance index="119" module_index="0" patch="123" X="0.75" />
+			<Instance index="120" module_index="0" patch="124" X="0.76" />
+			<Instance index="121" module_index="0" patch="125" X="0.78" />
+			<Instance index="122" module_index="0" patch="126" X="0.79" />
+			<Instance index="123" module_index="0" patch="127" X="0.81" />
+			<Instance index="124" module_index="0" patch="128" X="0.82" />
+			<Instance index="125" module_index="0" patch="129" X="0.84" />
+			<Instance index="126" module_index="0" patch="130" X="0.85" />
+			<Instance index="127" module_index="0" patch="131" X="0.87" />
+			<Instance index="128" module_index="0" patch="132" X="0.88" />
+			<Instance index="129" module_index="0" patch="133" X="0.9" />
+			<Instance index="130" module_index="0" patch="134" X="0.91" />
+			<Instance index="131" module_index="0" patch="135" X="0.93" />
+			<Instance index="132" module_index="0" patch="136" X="0.94" />
+			<Instance index="133" module_index="0" patch="137" X="0.96" />
+			<Instance index="134" module_index="0" patch="138" X="0.97" />
+			<Instance index="135" module_index="0" patch="139" X="0.99" />
+			<Instance index="136" module_index="0" patch="140" X="1" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>
