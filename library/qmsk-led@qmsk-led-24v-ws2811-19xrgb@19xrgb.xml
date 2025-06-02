@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
+	<Info datetime="2023-11-08T04:01:51" showfile="qmsk-led-test" />
+	<FixtureType index="11" name="QMSK-LED-24V-WS2811-20xRGB" mode="20xRGB">
+		<short_name>WS2811</short_name>
+		<manufacturer>QMSK-LED</manufacturer>
+		<short_manufacturer>QMSK-LED</short_manufacturer>
+		<Modules index="0">
+			<Module index="0" name="Pixel" class="LED" beamtype="Wash" beam_angle="35" beam_intensity="10000">
+				<Body>
+					<Size x="0.15" y="0.15" z="0.05" />
+				</Body>
+				<ChannelType index="0" attribute="COLORRGB1" feature="COLORRGB" preset="COLOR" coarse="1" highlight_value="100" color="ff0000">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB1" subattribute_user_name="R" attribute="COLORRGB1" attribute_user_name="R" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="1" attribute="COLORRGB2" feature="COLORRGB" preset="COLOR" coarse="2" highlight_value="100" color="00ff00">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB2" subattribute_user_name="G" attribute="COLORRGB2" attribute_user_name="G" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="2" attribute="COLORRGB3" feature="COLORRGB" preset="COLOR" coarse="3" highlight_value="100" color="0000ff">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="COLORRGB3" subattribute_user_name="B" attribute="COLORRGB3" attribute_user_name="B" feature="COLORRGB" feature_user_name="MixColor" preset="COLOR" preset_user_name="Color" />
+				</ChannelType>
+				<ChannelType index="3" attribute="DIM" feature="DIMMER" preset="DIMMER" highlight_value="100">
+					<ChannelFunction index="0" from="0" to="100" min_dmx_24="0" max_dmx_24="16777215" physfrom="0" physto="1" subattribute="DIM" subattribute_user_name="Dim" attribute="DIM" attribute_user_name="Dim" feature="DIMMER" feature_user_name="Dimmer" preset="DIMMER" preset_user_name="Dimmer" />
+				</ChannelType>
+			</Module>
+		</Modules>
+		<Instances index="1">
+			<Instance index="0" module_index="0" X="-1" />
+			<Instance index="1" module_index="0" patch="4" X="-0.89" />
+			<Instance index="2" module_index="0" patch="7" X="-0.79" />
+			<Instance index="3" module_index="0" patch="10" X="-0.68" />
+			<Instance index="4" module_index="0" patch="13" X="-0.58" />
+			<Instance index="5" module_index="0" patch="16" X="-0.47" />
+			<Instance index="6" module_index="0" patch="19" X="-0.37" />
+			<Instance index="7" module_index="0" patch="22" X="-0.26" />
+			<Instance index="8" module_index="0" patch="25" X="-0.16" />
+			<Instance index="9" module_index="0" patch="28" X="-0.053" />
+			<Instance index="10" module_index="0" patch="31" X="0.053" />
+			<Instance index="11" module_index="0" patch="34" X="0.16" />
+			<Instance index="12" module_index="0" patch="37" X="0.26" />
+			<Instance index="13" module_index="0" patch="40" X="0.37" />
+			<Instance index="14" module_index="0" patch="43" X="0.47" />
+			<Instance index="15" module_index="0" patch="46" X="0.58" />
+			<Instance index="16" module_index="0" patch="49" X="0.68" />
+			<Instance index="17" module_index="0" patch="52" X="0.79" />
+			<Instance index="18" module_index="0" patch="55" X="0.89" />
+			<Instance index="19" module_index="0" patch="58" X="1" />
+		</Instances>
+		<Wheels index="2" />
+		<VirtualFunctionBlocks index="3" />
+		<FixtureMacroCollect index="5" />
+		<Body />
+		<AutoPresets index="4" />
+		<RdmNotifications index="6">
+			<RdmNotification index="0" Type="Absent" Subcategory="RDM Warning" />
+		</RdmNotifications>
+	</FixtureType>
+</MA>

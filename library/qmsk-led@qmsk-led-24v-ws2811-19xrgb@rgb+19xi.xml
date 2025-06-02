@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.9.60/MA.xsd" major_vers="3" minor_vers="9" stream_vers="60">
 	<Info datetime="2023-11-08T04:01:55" showfile="qmsk-led-test" />
-	<FixtureType index="12" name="QMSK-LED-24V-WS2811-20xRGB" mode="RGB+20xI">
+	<FixtureType index="12" name="QMSK-LED-24V-WS2811-19xRGB" mode="RGB+19xI">
 		<short_name>WS2811</short_name>
 		<manufacturer>QMSK-LED</manufacturer>
 		<short_manufacturer>QMSK-LED</short_manufacturer>
@@ -50,7 +50,6 @@
 			<Instance index="17" module_index="0" patch="20" X="0.68" />
 			<Instance index="18" module_index="0" patch="21" X="0.79" />
 			<Instance index="19" module_index="0" patch="22" X="0.89" />
-			<Instance index="20" module_index="0" patch="23" X="1" />
 		</Instances>
 		<Wheels index="2" />
 		<VirtualFunctionBlocks index="3" />
